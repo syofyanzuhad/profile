@@ -30,9 +30,9 @@ function Home({ skills }: IProps) {
 					<wbr /> Syofyan Zuhad <span>👋</span>
 				</Headline>
 				<p>
-					I am a passionate Web Developer, specialised in back-end
-					development using Laravel and php. As an artisan user (Laravel magic), I
-					create amazing web applications to make the internet a better place.
+					I am a passionate Web Developer, specialised in back-end development
+					using Laravel and php. As an artisan user (Laravel magic), I create
+					amazing web applications to make the internet a better place.
 					<br />
 					You can talk to me about{' '}
 					<Typed

@@ -8,7 +8,15 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 			course: 'Pondok Programmer',
 			endDate: '2021-06-20',
 			place: 'boarding school',
-			technologies: ['HTML', 'CSS', 'Javascript', 'php', 'Laravel', 'Algorithms', 'Data Structures'],
+			technologies: [
+				'HTML',
+				'CSS',
+				'Javascript',
+				'php',
+				'Laravel',
+				'Algorithms',
+				'Data Structures',
+			],
 		},
 		{
 			institute: 'Darussalam Gontor, Modern Islamic Institution',
@@ -16,9 +24,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 			course: 'Islmic Teacher Training College',
 			endDate: '2018-06-30',
 			place: 'boarding school',
-			technologies: [
-				'Life teaching',
-			],
+			technologies: ['Life teaching'],
 		},
 	];
 

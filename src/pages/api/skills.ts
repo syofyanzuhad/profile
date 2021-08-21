@@ -15,11 +15,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 	const databases = ['MySQL', 'PostgreSQL', 'Firebase'];
 	const cms = ['WordPress', 'Statamic'];
 	const various = ['SEO', 'Scrum', 'Agile', 'Jira', 'Confluence'];
-	const design = [
-		'Canva',
-		'Gravit',
-		'Figma',
-	];
+	const design = ['Canva', 'Gravit', 'Figma'];
 	const softSkills = [
 		'Leadership',
 		'Problem solving',
@@ -47,7 +43,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 			language: 'English',
 			level: 'basic',
 			icon: '🇬🇧',
-		}
+		},
 	];
 
 	res.status(200).json({

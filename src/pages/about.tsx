@@ -36,20 +36,23 @@ function About({ jobs, education }: IProps) {
 				<h3>An intermediate web developer from Indonesia</h3>
 				<p>
 					As a passionate back-end developer, I create amazing websites and web
-					apps to make the internet a better place. I am an open-sourece enthusiast with a magic (artisan) touch inside like <a href="https://laravel.com">Laravel</a>.
+					apps to make the internet a better place. I am an open-sourece
+					enthusiast with a magic (artisan) touch inside like{' '}
+					<a href="https://laravel.com">Laravel</a>.
 				</p>
 				<p>
 					I am {differenceInCalendarYears(new Date(), new Date('1999-01-22'))}{' '}
 					years old and have been a web developer for as long as I can think.
-					The technologies I work with are JavaScript, HTML, CSS and php with a focus
-					on the frameworks Laravel, Nuxt.js, Tailwind. I use
-					code not only to do my day-to-day job, but also to solve everyday
-					problems I come across.
+					The technologies I work with are JavaScript, HTML, CSS and php with a
+					focus on the frameworks Laravel, Nuxt.js, Tailwind. I use code not
+					only to do my day-to-day job, but also to solve everyday problems I
+					come across.
 				</p>
 				<p>
-					When I am not writing code I love to spend time at room in Klaten or travelling around the world.
-					I speak four languages ['indonesian', 'javanese', 'arabic', 'english'] (some better than others).
-					Furthermore I enjoy watching movie when I come home after a long day at the office.
+					When I am not writing code I love to spend time at room in Klaten or
+					travelling around the world. I speak four languages: indonesian,
+					javanese, arabic, english (some better than others). Furthermore I
+					enjoy watching movie when I come home after a long day at the office.
 				</p>
 
 				<h2>Experience</h2>

@@ -35,14 +35,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 * Tech lead for the rebuild of site applications, used by students, and also for the its own internal use.
 * Lead for education and training for the students.
 * Mentored more junior developers through pair programming, to be the next mentor.`,
-			technologies: [
-				'HTML',
-				'CSS',
-				'javascript',
-				'jQuery',
-				'MySQL',
-				'Laravel',
-			],
+			technologies: ['HTML', 'CSS', 'javascript', 'jQuery', 'MySQL', 'Laravel'],
 		},
 	];
 
