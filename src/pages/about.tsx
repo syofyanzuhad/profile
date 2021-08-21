@@ -27,35 +27,29 @@ function About({ jobs, education }: IProps) {
 	return (
 		<>
 			<SeoHead
-				title="About Jacob Herper - Front-End Software Engineer"
-				description="As a passionate front-end developer, I create amazing websites and web apps to make the internet a better place."
+				title="About Syofyan Zuhad - Backend-End Developer"
+				description="As a passionate back-end developer, I create amazing websites and web apps to make the internet a better place."
 			/>
 
 			<Container>
-				<Headline>Hey, I&apos;m Jacob Herper</Headline>
-				<h3>A senior software engineer from England</h3>
+				<Headline>Hey, I&apos;m Syofyan Zuhad</Headline>
+				<h3>An intermediate web developer from Indonesia</h3>
 				<p>
-					As a passionate front-end developer, I create amazing websites and web
-					apps to make the internet a better place. I am an advocate for web
-					performance and accessibility as well as a JAMstack enthusiast with
-					experience in serverless technologies.
+					As a passionate back-end developer, I create amazing websites and web
+					apps to make the internet a better place. I am an open-sourece enthusiast with a magic (artisan) touch inside like <a href="https://laravel.com">Laravel</a>.
 				</p>
 				<p>
-					I am {differenceInCalendarYears(new Date(), new Date('1990-11-06'))}{' '}
+					I am {differenceInCalendarYears(new Date(), new Date('1999-01-22'))}{' '}
 					years old and have been a web developer for as long as I can think.
-					The technologies I work with are JavaScript, HTML and CSS with a focus
-					on the frameworks React.js, Gatsby, Next.js, Node and Express. I use
+					The technologies I work with are JavaScript, HTML, CSS and php with a focus
+					on the frameworks Laravel, Nuxt.js, Tailwind. I use
 					code not only to do my day-to-day job, but also to solve everyday
 					problems I come across.
 				</p>
 				<p>
-					When I am not writing code I love to spend time with my wife and 3
-					year old daughter at home in London or travelling around the world. We
-					are quite a multi-cultural family with me having grown up in Germany
-					🇩🇪 and my wife being from Mexico 🇲🇽, which is why we raise our
-					daughter trilingual. I myself speak five languages (some better than
-					others). Furthermore I enjoy cooking fresh food when I come home after
-					a long day at the office.
+					When I am not writing code I love to spend time at room in Klaten or travelling around the world.
+					I speak four languages ['indonesian', 'javanese', 'arabic', 'english'] (some better than others).
+					Furthermore I enjoy watching movie when I come home after a long day at the office.
 				</p>
 
 				<h2>Experience</h2>
@@ -74,7 +68,7 @@ function About({ jobs, education }: IProps) {
 				))}
 
 				<Center>
-					<a href="/cv-2021.pdf" target="_blank">
+					<a href="/Curriculum Vitae.pdf" target="_blank">
 						Download a copy of my CV
 					</a>
 				</Center>

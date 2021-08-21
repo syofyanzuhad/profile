@@ -3,60 +3,51 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 export default (req: NextApiRequest, res: NextApiResponse) => {
 	const technologies = [
 		'JavaScript',
-		'TypeScript',
-		'GraphQL',
-		'Redux',
+		'jQuery',
+		'SQL',
+		'php',
+		'git',
 		'RESTful APIs',
 		'HTML',
 		'CSS',
 	];
-	const frameworks = ['React', 'Vue.js', 'Next.js', 'Gatsby', 'Svelte'];
-	const databases = ['MySQL', 'MongoDB', 'Firebase', 'PostgreSQL'];
-	const cms = ['WordPress', 'Drupal', 'Contentful', 'Sanity.io'];
+	const frameworks = ['Laravel', 'Vue.js', 'Nuxt.js'];
+	const databases = ['MySQL', 'PostgreSQL', 'Firebase'];
+	const cms = ['WordPress', 'Statamic'];
 	const various = ['SEO', 'Scrum', 'Agile', 'Jira', 'Confluence'];
 	const design = [
-		'Adobe Illustrator',
-		'Adobe InDesign',
-		'Adobe Photoshop',
-		'Sketch',
-		'Zeplin',
+		'Canva',
+		'Gravit',
 		'Figma',
 	];
 	const softSkills = [
-		'Strong communicator',
 		'Leadership',
 		'Problem solving',
 		'Creative thinking',
 		'Flexible and adaptive',
 		'Team player',
-		'Always on time',
 	];
 	const languages = [
 		{
-			language: 'English',
+			language: 'Javanese',
 			level: 'bilingual',
-			icon: '🇬🇧',
+			icon: '🚩',
 		},
 		{
-			language: 'German',
+			language: 'Indonesian',
 			level: 'bilingual',
-			icon: '🇩🇪',
+			icon: '🇮🇩',
 		},
 		{
-			language: 'Spanish',
+			language: 'Arabic',
 			level: 'intermediate',
-			icon: '🇲🇽',
+			icon: '🇸🇦',
 		},
 		{
-			language: 'Italian',
+			language: 'English',
 			level: 'basic',
-			icon: '🇮🇹',
-		},
-		{
-			language: 'Russian',
-			level: 'basic',
-			icon: '🇷🇺',
-		},
+			icon: '🇬🇧',
+		}
 	];
 
 	res.status(200).json({

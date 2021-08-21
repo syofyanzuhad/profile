@@ -20,20 +20,20 @@ function Home({ skills }: IProps) {
 	return (
 		<>
 			<SeoHead
-				title="Jacob Herper - Front-End Software Engineer"
-				description="Front-End Software Engineer with a focus on JavaScript and React.js. I have more than 10 years experience working in software engineering."
+				title="Syofyan Zuhad - Back-End Developer"
+				description="Back-End Developer with a focus on php and Laravel. I have more than 2 years experience working in web development."
 			/>
 
 			<Container>
 				<Headline>
 					Hey, I&apos;m
-					<wbr /> Jacob Herper <span>👋</span>
+					<wbr /> Syofyan Zuhad <span>👋</span>
 				</Headline>
 				<p>
-					I am a passionate Software Engineer, specialised in front-end
-					development using React and TypeScript. As an advocate for web
-					performance and accessibility and an evangelist for the Jamstack, I
+					I am a passionate Web Developer, specialised in back-end
+					development using Laravel and php. As an artisan user (Laravel magic), I
 					create amazing web applications to make the internet a better place.
+					<br />
 					You can talk to me about{' '}
 					<Typed
 						loop
@@ -51,7 +51,7 @@ function Home({ skills }: IProps) {
 				<p>
 					P.S. this website is open-source and available on{' '}
 					<a
-						href="https://github.com/jakeherp/portfolio"
+						href="https://github.com/syofyanzuhad/portfolio"
 						title="Link to Github repository"
 						target="_blank"
 						rel="noopener noreferrer"

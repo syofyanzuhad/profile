@@ -9,7 +9,7 @@ const Footer: FC = () => {
 		<StyledFooter>
 			<Container>
 				<Flex>
-					<span>&copy; {new Date().getFullYear()} Jacob Herper</span>
+					<span>&copy; {new Date().getFullYear()} Syofyan Zuhad</span>
 					<SocialIcons />
 				</Flex>
 			</Container>
