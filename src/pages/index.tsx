@@ -51,7 +51,7 @@ function Home({ skills }: IProps) {
 				<p>
 					P.S. this website is open-source and available on{' '}
 					<a
-						href="https://github.com/syofyanzuhad/portfolio"
+						href="https://github.com/syofyanzuhad/profile"
 						title="Link to Github repository"
 						target="_blank"
 						rel="noopener noreferrer"
