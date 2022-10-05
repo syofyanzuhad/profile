@@ -40,7 +40,7 @@
 		"@testing-library/react-hooks": "^7.0.0",
 		"babel-polyfill": "^6.26.0",
 		"classnames": "^2.3.1",
-		"date-fns": "^2.22.1",
+		"date-fns": "^2.29.3",
 		"formik": "^2.2.9",
 		"gray-matter": "^4.0.3",
 		"lodash.orderby": "^4.6.0",
