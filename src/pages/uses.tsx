@@ -42,7 +42,7 @@ function Home() {
 								Lenovo ThinkPad X230 i5-3320M&quot;
 							</a>
 						</strong>{' '}
-						(2.6 GHz i5 CPU, 16 GB Ram, 512GB SSD storage)
+						(2.6 GHz i5 CPU, 12 GB Ram, 512GB SSD storage)
 					</li>
 					<li>
 						<strong>
