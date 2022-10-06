@@ -19,8 +19,8 @@ function Home() {
         <Headline>/uses</Headline>
         <p>
           This is a list of tech equipment I currently use for my day-to-day
-          work as a software engineer. I prefer to work remotely. That's why I
-          only use the laptop as the main tool. Sometimes I use supporting
+          work as a software engineer. I prefer to work remotely. That&apos;s
+          why I only use the laptop as the main tool. Sometimes I use supporting
           devices such as a mouse, keyboard, in-ear earphones, and headset.
         </p>
         <Image
