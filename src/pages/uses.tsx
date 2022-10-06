@@ -137,7 +137,7 @@ function Home() {
 								Github Copilot
 							</a>
 						</strong>{' '}
-						AI Support
+						AI Helper
 					</li>
 					<li>
 						<strong>
