@@ -245,7 +245,7 @@ function Home() {
           <li>
             <strong>
               <a
-                href="https://brave.com/"
+                href="https://www.google.co.id/intl/id/chrome/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
