@@ -4,5 +4,5 @@ export interface IPost {
 	slug: string;
 	tags: string[];
 	date: string;
-	content: string;
+	// content: string;
 }

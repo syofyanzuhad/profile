@@ -1,11 +1,11 @@
-import { FC } from "react";
-import Link from "next/link";
-import { List, StyledNavigation } from "./styles";
+import { FC } from 'react';
+import Link from 'next/link';
+import { List, StyledNavigation } from './styles';
 
-import { ThemeToggle } from "Atoms/ThemeToggle";
+import { ThemeToggle } from 'Atoms/ThemeToggle';
 
 interface NavigationProps {
-  onClick?: () => void;
+	onClick?: () => void;
 }
 
 const Navigation: FC<NavigationProps> = ({ onClick }) => {
