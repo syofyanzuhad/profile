@@ -28,8 +28,10 @@ const Navigation: FC<NavigationProps> = ({ onClick }) => {
 					</Link>
 				</li>
 				<li>
-					<Link href="//syofyanzuhad.medium.com" target="_blank">
-						<a onClick={onClick}>Blog</a>
+					<Link href="//syofyanzuhad.medium.com">
+						<a target="_blank" onClick={onClick}>
+							Blog
+						</a>
 					</Link>
 				</li>
 				<li>
