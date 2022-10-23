@@ -28,7 +28,7 @@ const Navigation: FC<NavigationProps> = ({ onClick }) => {
 					</Link>
 				</li>
 				<li>
-					<Link href="/blog">
+					<Link href="//syofyanzuhad.medium.com" passHref>
 						<a onClick={onClick}>Blog</a>
 					</Link>
 				</li>
