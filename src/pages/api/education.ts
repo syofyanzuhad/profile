@@ -21,7 +21,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 		{
 			institute: 'Darussalam Gontor, Modern Islamic Institution',
 			website: 'https://gontor.ac.id/',
-			course: 'Islmic Teacher Training College',
+			course: 'Islamic Teacher Training College',
 			endDate: '2018-06-30',
 			place: 'boarding school',
 			technologies: ['Life teaching'],
