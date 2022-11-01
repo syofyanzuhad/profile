@@ -12,7 +12,6 @@ import { darkTheme, lightTheme } from 'Styles/themes';
 import { useDispatch, useSelector } from 'react-redux';
 import { Analytics } from '@vercel/analytics/react';
 
-
 Router.events.on('routeChangeStart', () => NProgress.start());
 Router.events.on('routeChangeComplete', () => NProgress.done());
 Router.events.on('routeChangeError', () => NProgress.done());
