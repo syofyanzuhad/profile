@@ -5,7 +5,7 @@ import { Container } from 'Atoms/Container';
 import { List } from 'Atoms/List';
 import { SeoHead } from 'Atoms/SeoHead';
 
-import desk from 'Public/assets/laptop.webp';
+import desk from 'Public/assets/laptop.jpg';
 
 function Home() {
 	return (
