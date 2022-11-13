@@ -4,6 +4,7 @@ import { GetServerSideProps } from 'next';
 import { ISkills } from '@Types';
 import styled from 'styled-components';
 import Typed from 'react-typed';
+import splitbee from '@splitbee/web';
 
 import { Container } from 'Atoms/Container';
 import { SeoHead } from 'Atoms/SeoHead';
@@ -11,6 +12,9 @@ import { SeoHead } from 'Atoms/SeoHead';
 interface IProps {
 	skills: ISkills;
 }
+
+// This initiliazes Splitbee.js
+splitbee.init()
 
 function Home({ skills }: IProps) {
 	const { technologies, frameworks } = skills;
