@@ -29,7 +29,7 @@ export default function BlogPost({ item, mdxSource }: any) {
 			/>
 			<Container>
 				<Image
-					src={`/portfolio/${slug}.jpg`}
+					src={`/portfolio/${slug}.png`}
 					width={1920}
 					height={1080}
 					objectFit="cover"
