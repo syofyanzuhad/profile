@@ -14,7 +14,7 @@ interface IProps {
 }
 
 // This initiliazes Splitbee.js
-splitbee.init()
+splitbee.init();
 
 function Home({ skills }: IProps) {
 	const { technologies, frameworks } = skills;
