@@ -27,6 +27,11 @@ const SeoHead: FC<HeadProps> = ({
 	return (
 		<Head>
 			<title>{title}</title>
+			<link rel="canonical" href="https://syofyanzuhad.my.id/" />
+			<link
+				rel="icon"
+				href="https://secure.gravatar.com/avatar/66b4ab4b1c5ee1c71a5dbe20a4c438d9?s=500"
+			/>
 			<meta name="description" content={description} />
 			<meta name="author" content={author} />
 			<meta name="og:title" content={title} />
