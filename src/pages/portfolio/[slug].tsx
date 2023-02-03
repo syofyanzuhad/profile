@@ -22,8 +22,8 @@ export default function BlogPost({ item, mdxSource }: any) {
 	return (
 		<>
 			<SeoHead
-				title={`${title} - Jacob Herper's Portfolio - Front-End Software Engineer`}
-				description={`Project ${title} developed by Jacob Herper using ${technologies.join(
+				title={`${title} - Syofyan Zuhad's Portfolio - Back-End Software Engineer`}
+				description={`Project ${title} developed by Syofyan Zuhad using ${technologies.join(
 					', '
 				)}.`}
 			/>
