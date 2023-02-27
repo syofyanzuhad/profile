@@ -275,6 +275,10 @@ export const GlobalStyles = createGlobalStyle`
 						animation: nprogress-spinner 400ms linear infinite;
 	}
 
+	span#type {
+		color: ${({ theme }) => theme.primary};
+	}
+
 	.nprogress-custom-parent {
 		overflow: hidden;
 		position: relative;

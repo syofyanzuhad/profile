@@ -38,18 +38,21 @@ function Home({ skills }: IProps) {
 					using Laravel and php. As an artisan user (Laravel magic), I create
 					amazing web applications to make the internet a better place.
 					<br />
-					You can talk to me about{' '}
-					<Typed
-						loop
-						typeSpeed={80}
-						backSpeed={20}
-						strings={talkAbout}
-						smartBackspace
-						backDelay={1000}
-						loopCount={0}
-						showCursor
-						cursorChar="|"
-					/>
+					You can talk to me about
+					<span id="type">
+						{' '}
+						<Typed
+							loop
+							typeSpeed={80}
+							backSpeed={20}
+							strings={talkAbout}
+							smartBackspace
+							backDelay={1000}
+							loopCount={0}
+							showCursor
+							cursorChar="|"
+						/>
+					</span>
 					.
 				</p>
 				<p>
