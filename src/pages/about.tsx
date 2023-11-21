@@ -33,7 +33,7 @@ function About({ jobs, education }: IProps) {
 
 			<Container>
 				<Headline>Hey, I&apos;m Syofyan Zuhad</Headline>
-				<h3>An intermediate web developer from Indonesia</h3>
+				<h3>Software Engineer based on Indonesia</h3>
 				<p>
 					As a passionate back-end developer, I create amazing websites and web
 					apps to make the internet a better place. I am an open-sourece
@@ -49,7 +49,7 @@ function About({ jobs, education }: IProps) {
 					come across.
 				</p>
 				<p>
-					When I am not writing code I love to spend time at room in Klaten or
+					When I am not writing code I love to spend time at room or
 					travelling around the world. I speak four languages: indonesian,
 					javanese, arabic, english (some better than others). Furthermore I
 					enjoy watching movie when I come home after a long day at the office.
