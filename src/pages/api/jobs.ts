@@ -3,11 +3,30 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 export default (req: NextApiRequest, res: NextApiResponse) => {
 	const positions = [
 		{
+			company: 'Fortius HRIS',
+			website: 'https://fortiushris.com/',
+			jobTitle: 'Software Engineer',
+			startDate: '2023-05-02',
+			endDate: null,
+			place: 'Kelapa Gading, Jakarta Utara, Indonesia',
+			description: `* Joined Fortius HRIS as a software engineer, first with back-end expertise in the fullstack development. (alongside research untill deployment)
+* Rewriting the old system to the new system.`,
+			technologies: [
+				'HTML',
+				'CSS',
+				'php',
+				'jQuery',
+				'MySQL',
+				'Livewire',
+				'Laravel',
+			],
+		},
+		{
 			company: 'Sandbox Indonesia',
 			website: 'https://www.sandboxindonesia.id/',
 			jobTitle: 'Fullstack Developer',
 			startDate: '2021-05-17',
-			endDate: null,
+			endDate: '2023-05-01',
 			place: 'Bareng Lor, Klaten Utara, Jawa Tengah, Indonesia',
 			description: `* Joined Informa Studios (old name) as a junior backend developer, first with back-end expertise in the fullstack development. (alongside research untill deployment)
 * Develop ACTIONS system for university.
