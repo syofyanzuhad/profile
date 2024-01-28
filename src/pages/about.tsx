@@ -125,8 +125,8 @@ const Center = styled.div`
 	}
 
 	button:hover {
-		background: ${({ theme }) => theme.text};
-		color: ${({ theme }) => theme.grey};
+		background: ${({ theme }) => theme.grey};
+		color: ${({ theme }) => theme.primary};
 		cursor: pointer;
 	}
 `;
