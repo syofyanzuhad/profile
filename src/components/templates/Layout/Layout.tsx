@@ -3,7 +3,11 @@ import { Footer } from 'Organisms/Footer';
 import { Header } from 'Organisms/Header';
 import { StyledLayout } from './styles';
 
-const Layout: FC = ({ children }) => {
+interface LayoutProps {
+	children: React.ReactNode;
+}
+
+const Layout: FC<LayoutProps> = ({ children }) => {
 	return (
 		<StyledLayout>
 			<Header />

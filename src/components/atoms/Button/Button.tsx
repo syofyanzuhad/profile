@@ -5,6 +5,7 @@ export interface ButtonProps {
 	href?: string;
 	onClick?: (...args: any) => void;
 	target?: '_blank' | '_self' | '_parent';
+	children: React.ReactNode;
 }
 
 const Button: FC<ButtonProps> = ({ children, href, target, onClick }) => {

@@ -5,7 +5,13 @@ export default {
 	component: Layout,
 };
 
-export const LayoutStory = () => <Layout />;
+interface LayoutStoryProps {
+	children: React.ReactNode;
+}
+
+export const LayoutStory = ({ children }: LayoutStoryProps) => (
+	<Layout>${children}</Layout>
+);
 
 LayoutStory.storyName = 'Layout';
 LayoutStory.args = {};

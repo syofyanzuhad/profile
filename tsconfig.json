@@ -36,7 +36,8 @@
 			"Storybook/*": [".storybook/*"],
 			"Utils/*": ["./src/utils/*"]
 		},
-		"isolatedModules": true
+		"isolatedModules": true,
+		"incremental": true
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.d.ts"],
 	"exclude": ["node_modules"]

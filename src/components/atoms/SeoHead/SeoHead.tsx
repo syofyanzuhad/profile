@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import Head from 'next/head';
 
-import website from 'Public/assets/website.png';
+// import website from 'Public/assets/website.png';
 
 export interface HeadProps {
 	title: string;
