@@ -122,6 +122,11 @@ const Center = styled.div`
 		padding: 0.5rem 3rem;
 		border-radius: 5px;
 		background: transparent;
+		hover: {
+			cursor: pointer;
+			color: ${({ theme }) => theme.grey};
+			background: ${({ theme }) => theme.text};
+		}
 	}
 `;
 
