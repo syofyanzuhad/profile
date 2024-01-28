@@ -5,7 +5,7 @@ import { ISkills } from '@Types';
 import styled from 'styled-components';
 import Typed from 'react-typed';
 import splitbee from '@splitbee/web';
-import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import { Container } from 'Atoms/Container';
 import { SeoHead } from 'Atoms/SeoHead';
 
@@ -68,8 +68,6 @@ function Home({ skills }: IProps) {
 					.
 				</p>
 			</Container>
-
-			<SpeedInsights />
 		</>
 	);
 }
