@@ -2,19 +2,19 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default (req: NextApiRequest, res: NextApiResponse) => {
 	const technologies = [
+		'HTML',
+		'CSS',
+		'php',
 		'JavaScript',
 		'jQuery',
 		'SQL',
-		'php',
+		'RESTful API',
 		'git',
-		'RESTful APIs',
-		'HTML',
-		'CSS',
 	];
-	const frameworks = ['Laravel', 'Vue.js', 'Nuxt.js'];
-	const databases = ['MySQL', 'PostgreSQL', 'Firebase'];
+	const frameworks = ['Laravel', 'Nextjs', 'Nuxtjs'];
+	const databases = ['MySQL', 'PostgreSQL', 'SQLite'];
 	const cms = ['WordPress', 'Statamic'];
-	const various = ['SEO', 'Scrum', 'Agile', 'Jira', 'Confluence'];
+	const various = ['SEO', 'Scrum', 'Agile', 'Jira', 'Github'];
 	const design = ['Canva', 'Gravit', 'Figma'];
 	const softSkills = [
 		'Leadership',

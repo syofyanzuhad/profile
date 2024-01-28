@@ -17,15 +17,15 @@ interface IProps {
 splitbee.init();
 
 function Home({ skills }: IProps) {
-	const { technologies, frameworks } = skills;
+	const { technologies, frameworks, databases, various } = skills;
 
-	const talkAbout = [...technologies, ...frameworks];
+	const talkAbout = [...technologies, ...frameworks, ...databases, ...various];
 
 	return (
 		<>
 			<SeoHead
 				title="Syofyan Zuhad - Back-End Developer"
-				description="Back-End Developer with a focus on php and Laravel. I have more than 2 years experience working in web development."
+				description="Back-End Developer with a focus on php and Laravel. I have more than 3 years experience working in web development."
 			/>
 
 			<Container>
