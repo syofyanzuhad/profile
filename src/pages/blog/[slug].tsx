@@ -33,7 +33,7 @@ export default function BlogPost({ post, mdxSource }: any) {
 	return (
 		<>
 			<SeoHead
-				title={`${title} - Jacob Herper's Blog - Front-End Software Engineer`}
+				title={`${title} - Syofyan Zuhad's Blog - Back-End Software Engineer`}
 				description={description}
 			/>
 			<Container>

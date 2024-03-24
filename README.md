@@ -1,4 +1,4 @@
-# Jacob Herper Portfolio
+# Syofyan Zuhad Portfolio (forked from Jacob Herper Portfolio)
 
 This is my portfolio website, proudly built with [Next.js](https://nextjs.org/), TypeScript, Styled-Components and MDX.
 Previously I built my website using Gatsby, but decided to move over to Next.js due to their major improvements that make it my first choice, not only for applications, but also for websites.
