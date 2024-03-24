@@ -71,7 +71,7 @@ function About({ jobs, education }: IProps) {
 				))}
 
 				<Center>
-					<a href="/PUBLIC CV-ATS Syoyan Zuhad.pdf" target="_blank">
+					<a href="/Syofyan Zuhad.pdf" target="_blank">
 						Download a copy of my CV
 					</a>
 				</Center>
