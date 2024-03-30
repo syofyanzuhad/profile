@@ -21,7 +21,7 @@
 		"lint": "jest --selectProjects lint",
 		"qa:lint": "eslint --ignore-path .gitignore .",
 		"qa:prettier": "prettier --ignore-path .gitignore --write \"**/*.+(js|jsx|json|ts|tsx)\"",
-		"qa": "npm run qa::lint",
+		"qa": "npm run qa:lint",
 		"start": "next start",
 		"storybook:build": "build-storybook",
 		"storybook": "start-storybook -p 6006",
