@@ -6,7 +6,7 @@ import { Layout } from 'Templates/Layout';
 import NProgress from 'nprogress';
 import Router from 'next/router';
 import { setTheme } from 'Redux/actions/theme';
-import { SpeedInsights } from '@vercel/speed-insights/next';
+// import { SpeedInsights } from '@vercel/speed-insights/next';
 import { storeWrapper } from 'Redux/store';
 import { ThemeProvider } from 'styled-components';
 import { useEffect } from 'react';
@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 				</Layout>
 			</ThemeProvider>
 			<Analytics />
-			<SpeedInsights />
+			{/* <SpeedInsights /> */}
 		</>
 	);
 }
