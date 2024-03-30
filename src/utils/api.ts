@@ -1,7 +1,7 @@
 import fs from 'fs';
+import { IPost } from '@Types/post';
 import { join } from 'path';
 import matter from 'gray-matter';
-import { IPost } from '@Types/post';
 
 type MdxType = 'BLOG' | 'PORTFOLIO' | 'PAGES';
 

@@ -2,9 +2,9 @@ import absoluteUrl from 'next-absolute-url';
 import { fetcher } from 'Utils/fetcher';
 import { GetServerSideProps } from 'next';
 import { ISkills } from '@Types';
+import splitbee from '@splitbee/web';
 import styled from 'styled-components';
 import Typed from 'react-typed';
-import splitbee from '@splitbee/web';
 
 import { Container } from 'Atoms/Container';
 import { SeoHead } from 'Atoms/SeoHead';

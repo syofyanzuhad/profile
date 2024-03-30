@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import type { AppProps } from 'next/app';
 import { getTheme } from 'Redux/selectors';
 import { GlobalStyles } from 'Styles/globalStyles';
@@ -5,13 +6,12 @@ import { Layout } from 'Templates/Layout';
 import NProgress from 'nprogress';
 import Router from 'next/router';
 import { setTheme } from 'Redux/actions/theme';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { storeWrapper } from 'Redux/store';
 import { ThemeProvider } from 'styled-components';
 import { useEffect } from 'react';
 import { darkTheme, lightTheme } from 'Styles/themes';
 import { useDispatch, useSelector } from 'react-redux';
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 
 Router.events.on('routeChangeStart', () => NProgress.start());
 Router.events.on('routeChangeComplete', () => NProgress.done());
