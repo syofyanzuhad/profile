@@ -1,4 +1,5 @@
-import { BlogPost, BlogPostProps } from './BlogPost';
+import React from 'react';
+import { BlogPost, BlogPostProps } from './BlogPost'; // Import both BlogPost and BlogPostProps
 
 export default {
 	title: 'atoms/BlogPost',
