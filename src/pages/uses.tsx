@@ -29,20 +29,21 @@ function Home() {
 					height={1080}
 					alt="A photo of my desk"
 					placeholder="blur"
+					objectFit="cover"
 				/>
 				<h3>Computer & Hardware</h3>
 				<List>
 					<li>
 						<strong>
 							<a
-								href="https://icecat.biz/p/lenovo/232036s/thinkpad-notebooks-x230-14595012.html"
+								href="https://support.apple.com/id-id/111869"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Lenovo ThinkPad X230 i5-3320M&quot;
+								Macbook Pro M2
 							</a>
 						</strong>{' '}
-						(2.6 GHz i5 CPU, 12 GB Ram, 512GB SSD storage)
+						(8 GB Ram, 512GB SSD storage)
 					</li>
 					<li>
 						<strong>
@@ -59,11 +60,11 @@ function Home() {
 					<li>
 						<strong>
 							<a
-								href="https://kz-audio.com/kz-edx.html"
+								href="https://kz-audio.com/kz-edx-pro.html"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Knowledge Zenith EDX
+								Knowledge Zenith EDX Pro
 							</a>
 						</strong>{' '}
 						In-ear Earphone
@@ -71,14 +72,14 @@ function Home() {
 					<li>
 						<strong>
 							<a
-								href="https://amzn.to/3fxf7Pr"
+								href="https://kz-audio.com/kz-edx.html"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Rexus M1
+								Knowledge Zenith AZ09 HD Bloutooth
 							</a>
 						</strong>{' '}
-						Headset Bloetooth 5.0
+						In-ear Earphone
 					</li>
 					<li>
 						<strong>
@@ -245,14 +246,14 @@ function Home() {
 					<li>
 						<strong>
 							<a
-								href="https://www.google.co.id/intl/id/chrome/"
+								href="https://brave.com/"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Google Chrome
+								Brave Browser
 							</a>
 						</strong>{' '}
-						still using for entire devices
+						used for entire devices
 					</li>
 				</List>{' '}
 			</Container>
