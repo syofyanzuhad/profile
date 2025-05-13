@@ -80,5 +80,5 @@ const Description = styled.div`
 export default Error;
 
 export const config = {
-	runtime: 'edge',
+	runtime: 'experimental-edge',
 };
