@@ -149,5 +149,5 @@ export const getServerSideProps: GetServerSideProps = async ({ req }) => {
 export default About;
 
 export const config = {
-	runtime: 'experimental-edge',
+	runtime: 'nodejs',
 };

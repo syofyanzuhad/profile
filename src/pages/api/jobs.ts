@@ -62,5 +62,5 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 };
 
 export const config = {
-	runtime: 'experimental-edge',
+	runtime: 'nodejs',
 };

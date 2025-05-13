@@ -118,5 +118,5 @@ const Headline = styled.h2`
 export default Home;
 
 export const config = {
-	runtime: 'experimental-edge',
+	runtime: 'nodejs',
 };
