@@ -1,6 +1,7 @@
+const assetPrefix = process.env.ASSET_HOST?.trim();
 module.exports = {
 	poweredByHeader: false,
-	assetPrefix: process.env.ASSET_HOST || '',
+	assetPrefix: assetPrefix || undefined, // ✅ Avoid invalid empty string
 	productionBrowserSourceMaps: process.env.NODE_ENV === 'production',
 	webpack(config) {
 		config.module.rules.push({
