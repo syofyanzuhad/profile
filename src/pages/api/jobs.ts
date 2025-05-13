@@ -60,3 +60,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 
 	res.status(200).json({ positions });
 };
+
+export const config = {
+	runtime: 'edge',
+};

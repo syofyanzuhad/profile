@@ -147,3 +147,7 @@ export const getServerSideProps: GetServerSideProps = async ({ req }) => {
 };
 
 export default About;
+
+export const config = {
+	runtime: 'edge',
+};

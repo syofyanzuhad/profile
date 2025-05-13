@@ -57,3 +57,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 		languages,
 	});
 };
+
+export const config = {
+	runtime: 'edge',
+};

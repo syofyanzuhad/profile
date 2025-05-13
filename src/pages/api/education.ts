@@ -30,3 +30,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 
 	res.status(200).json({ education });
 };
+
+export const config = {
+	runtime: 'edge',
+};
